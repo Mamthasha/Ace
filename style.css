@@ -1,0 +1,38 @@
+
+.inputs {
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start; /* Align content at the start */
+    align-items: flex-start;
+    flex-direction: column;
+    border: 10px solid black;
+    width: fit-content;
+    padding: 15px;
+}
+
+.questions {
+    gap: 15px;
+   
+    list-style: none;
+    
+}
+
+.questions li {
+    display: flex; /* Arrange question and input in a row */
+    justify-content: space-between; /* Add space between question and input */
+    align-items: center;
+    gap: 20px; /* Adjust gap between question and input */
+    margin-bottom: 10px;
+}
+
+.questions input,
+.questions textarea {
+    font-size: 18px; /* Adjust input field size */
+    width: 300px;
+    padding: 5px;
+}
+
+.questions input[type="file"] {
+    font-size: 16px;
+    width: auto;
+}
